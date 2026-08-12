@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct NetworkConfiguration {
+public struct NetworkConfiguration: Sendable {
     public let baseURL: URL
     public let timeout: TimeInterval
     
